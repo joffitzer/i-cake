@@ -11,8 +11,6 @@
 // Dine In Orders: [2, 4, 6]
 // Served Orders: [1, 2, 3, 5, 4, 6]
 
-
-
 function isFirstComeFirstServed(takeOutOrders, dineInOrders, servedOrders) {
     let takeOutOrdersIndex = 0;
     let dineInOrdersIndex = 0;
@@ -54,7 +52,6 @@ function isFirstComeFirstServed(takeOutOrders, dineInOrders, servedOrders) {
     // so we're serving first-come, first-served!
     return true;
 }
-
 
 // Complexity: 
 // O(n) time and O(1) additional space.
