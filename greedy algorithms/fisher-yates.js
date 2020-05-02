@@ -14,6 +14,7 @@
 // So for the first index, we choose from nn items, for the second index we choose from n-1n−1 items, etc.
 
 function getRandom(floor, ceiling) {
+    //get random function in between two numbers
     return Math.floor(Math.random() * (ceiling - floor + 1)) + floor;
   }
   
